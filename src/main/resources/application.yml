@@ -12,11 +12,11 @@ eureka:
     defaultZone: "${EUREKA_HOST:localhost}:${EUREKA_PORT:9001}"
 # Comment tracing out and App is working fine
 # Uncomment and you get 404
-tracing:
-    zipkin:
-        http:
-            url: http://localhost:9411
-        enabled: true
-        sampler:
-            probability: 1 # <1>
+#tracing:
+#    zipkin:
+#        http:
+#            url: http://localhost:9411
+#        enabled: true
+#        sampler:
+#            probability: 1 # <1>
 
