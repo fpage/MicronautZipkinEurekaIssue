@@ -5,11 +5,11 @@ micronaut:
         port: 8080
 # Comment Eureka config and Zipkin is working
 # Uncomment and you get 404
-eureka:
-  client:
-    registration:
-      enabled: true
-    defaultZone: "${EUREKA_HOST:localhost}:${EUREKA_PORT:9001}"
+#eureka:
+#  client:
+#    registration:
+#      enabled: true
+#    defaultZone: "${EUREKA_HOST:localhost}:${EUREKA_PORT:9001}"
 # Comment tracing out and App is working fine
 # Uncomment and you get 404
 tracing:
